@@ -1,0 +1,22 @@
+Write your debugging steps and thought process here (This is part of your grade)
+First Run....
+Allocation number 153-284 **.
+
+searching for missed deallocation.
+New items leakage.
+Output show some leaks resolved; moving on.
+
+
+Allocation number 153-203.
+Items deallocation. loop to deallocate leakage for items & delete item on exit function.
+
+Created Store Destructor.
+
+Deallocated Store* s/main.
+#283
+>	SPR Dynamic Memory Lab 2.0.exe!operator new(unsigned __int64 _size) Line 27	C++
+ 	SPR Dynamic Memory Lab 2.0.exe!Item::Print() Line 15	C++
+     	SPR Dynamic Memory Lab 2.0.exe!Inventory::Print() Line 37	C++
+ 	SPR Dynamic Memory Lab 2.0.exe!Store::Print() Line 21	C++
+     	SPR Dynamic Memory Lab 2.0.exe!ScopeMain() Line 23	C++
+         	SPR Dynamic Memory Lab 2.0.exe!main() Line 14	C++
